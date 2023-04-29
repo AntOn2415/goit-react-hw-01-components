@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
+import css from './TransactionHistory.module.css';
+
 export  default function TransactionHistory({items}) {
   return (
-    <table class="transaction-history">
+    <table className={css.transactionHistory}>
   <thead>
     <tr>
       <th>Type</th>
@@ -24,13 +26,12 @@ export  default function TransactionHistory({items}) {
 }
 
 TransactionHistory.propTypes = {
-  items: PropTypes.array,
-  // id — унікальний ідентифікатор транзакції
-id: PropTypes.string,
-// type — тип транзакції
-type: PropTypes.string,
-// amount - сума транзакції
-amount: PropTypes.number,
-// currency - тип валюти
-currency: PropTypes.string,
+  items: PropTypes.arrayOf(
+    PropTypes.exact({
+      id: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.number.isRequired,
+      currency: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 }

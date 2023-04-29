@@ -1,0 +1,28 @@
+.profile {
+  display: flex;
+  
+}
+.description {
+  display: flex;
+}
+.avatar {
+  display: flex;
+}
+.name {
+  display: flex;
+}
+.tag {
+  display: flex;
+}
+.location {
+  display: flex;
+}
+.stats {
+  display: flex;
+}
+.label {
+  display: flex;
+}
+.quantity {
+  display: flex;
+}

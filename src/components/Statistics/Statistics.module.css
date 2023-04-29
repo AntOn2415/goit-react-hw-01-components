@@ -1,0 +1,20 @@
+
+
+.statistics {
+  display: flex;
+}
+.title {
+  display: flex;
+}
+.statList {
+  display: flex;
+}
+.item {
+  display: flex;
+}
+.label {
+  display: flex;
+}
+.percentage {
+  display: flex;
+}

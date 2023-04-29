@@ -1,7 +1,7 @@
-import Profile from './Profile';
-import Statistics from './Statistics';
-import FriendList from './FriendList';
-import TransactionHistory from './TransactionHistory';
+import Profile from './Profile/Profile';
+import Statistics from './Statistics/Statistics';
+import FriendList from './FriendList/FriendList';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 import user from 'path/to/user.json';
 import data from 'path/to/data.json';
@@ -19,7 +19,7 @@ export const App = () => {
     stats={user.stats}
   />
   
- {data && data.length > 0 ? (
+  {data && data.length > 0 ? (
         <>
           {data.title && <Statistics title={data.title} stats={data} />}
           {!data.title && <Statistics stats={data} />}
