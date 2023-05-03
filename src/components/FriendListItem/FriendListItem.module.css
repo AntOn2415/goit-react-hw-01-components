@@ -7,25 +7,25 @@
   border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  }
+}
 
-  .status {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-  }
-  .true {
-    background-color: #408900;
-  }
+.status {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+.true {
+  background-color: #408900;
+}
 .false {
   background-color: #ff0000;
 }
-  .avatar {
-    display: flex;
-    background-color: aliceblue;
-    border-radius: 4px;
-  }
-  .name {
-    /* display: flex; */
-    align-items: center;
-  }
+.avatar {
+  display: flex;
+  background-color: #f0f8ff;
+  border-radius: 4px;
+}
+.name {
+  /* display: flex; */
+  align-items: center;
+}
