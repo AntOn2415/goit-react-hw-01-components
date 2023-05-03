@@ -6,47 +6,77 @@
   padding: 20px 0 0;
   width: 210px;
   background-color: #fff;
-  border: solid 2px coral;
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 4px;
 }
+
 .description {
   display: block;
 }
+
 .avatar {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
   width: 80px;
   margin-bottom: 20px;
- 
 }
+
 .name {
   text-align: center;
   margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
 }
+
 .tag {
   text-align: center;
   margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #9a9898;
 }
+
 .location {
   text-align: center;
   margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #9a9898;
 }
+
 .stats {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
+  border-radius: 0 0 4px 4px;
+  background-color: #d4d4d4;
 }
-.statsItem{
-  text-align: center;
-  /* padding: 15px; */
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-top: solid 1px #9a9898;
+  border-right: solid 1px #9a9898;
   width: 100%;
-  border: solid 2px coral;
-  background-color: #c4bcbc;
+  height: 60px;
 }
+
+.statsItem:last-child {
+  border-right: 0;
+}
+
 .label {
   text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #9a9898;
 }
+
 .quantity {
   display: block;
 }

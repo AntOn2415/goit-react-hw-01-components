@@ -1,13 +1,31 @@
 .item {
   display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
   }
+
   .status {
-    display: flex;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
   }
+  .true {
+    background-color: #408900;
+  }
+.false {
+  background-color: #ff0000;
+}
   .avatar {
     display: flex;
+    background-color: aliceblue;
+    border-radius: 4px;
   }
   .name {
-    display: flex;
-    margin-top: 20px;
+    /* display: flex; */
+    align-items: center;
   }

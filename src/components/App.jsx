@@ -18,7 +18,6 @@ export const App = () => {
     avatar={user.avatar}
     stats={user.stats}
   />
-  
   {data && data.length > 0 ? (
         <>
           {data.title && <Statistics title={data.title} stats={data} />}

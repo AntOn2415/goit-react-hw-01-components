@@ -18,15 +18,15 @@ export  default function Profile({username, tag, location, avatar, stats}) {
   <ul className={css.stats}>
     <li className={css.statsItem}>
       <span className={css.label}>Followers</span>
-      <span className={css.quantity}>{stats.followers}</span>
+      <span className={css.quantity}>{stats.followers.toLocaleString()}</span>
     </li>
     <li className={css.statsItem}>
       <span className={css.label}>Views</span>
-      <span className={css.quantity}>{stats.views}</span>
+      <span className={css.quantity}>{stats.views.toLocaleString()}</span>
     </li>
     <li className={css.statsItem}>
       <span className={css.label}>Likes</span>
-      <span className={css.quantity}>{stats.likes}</span>
+      <span className={css.quantity}>{stats.likes.toLocaleString()}</span>
     </li>
   </ul>
 </div>

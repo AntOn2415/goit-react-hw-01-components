@@ -1,13 +1,12 @@
 @import-normalize; /* bring in normalize.css styles */
 
-*,
-::before,
-::after {
+* {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  background-color:#efefef;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -36,7 +35,8 @@ p {
   margin: 0;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
   padding: 0;
   margin: 0;
